@@ -1,0 +1,101 @@
+.navbar {
+	background: $indigo;
+	.first-line {
+		width: 100%;
+		margin: 0 0;
+	}
+	.logo {
+		width: 100%;
+		.crown {
+			width: 100%;
+		}
+	}
+	.navbar-brand {
+		h1 {
+			font-weight: 300;
+		}
+	}
+	.social-media {
+		a {
+			margin-left: 1.5em;
+			i {
+				display: block;
+				font-size: 1.5em;
+				color: rgba(#fff, 0.7);
+				line-height: 1.5em;
+				&.facebook:hover {
+					color: #3b5998;
+				}
+				&.instagram:hover {
+					color: #e1306c;
+				}
+				&.twitter:hover {
+					color: #1da1f2;
+				}
+				&.youtube:hover {
+					color: #ff0000;
+				}
+			}
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	.navbar-nav {
+		padding-left: 10em;
+		margin-left: 2em;
+		.nav-item {
+			.nav-link {
+				margin:0 1em;
+				border-radius: 3px;
+				color: #ffF;
+				text-align: center;
+				&:hover {
+					background: rgba(255,255,255,0.3);
+					}
+				&.cart-btn {
+					background: $red;
+				}
+			}
+		}
+		
+		.dropdown-menu {
+			background: $indigo;
+			border: none;
+			border-radius: 0 0 3px 3px;
+			a {
+				padding: 0.8em;
+			}
+			.dropdown-item {
+				padding: 0.35em 1em;
+				font-size: 0.85em;
+				color: #fff;
+				&:hover {
+					color: #000;
+				}
+			}
+		}
+	}
+	.second-line {
+		width: 100%;
+		margin-bottom: 0.3em;
+		.cart {
+			padding-right: 3em;
+			i {
+				color: rgba(#fff, 0.9);
+				font-size: 1.5em;
+				line-height: 2em;
+				text-align: center;
+				background: rgba(255,255,255,0.5);
+				border-radius: 100%;
+				width: 2em;
+				height: 2em;
+				padding-right: 0.120em;
+				&:hover {
+					background: $red;
+					color: rgba(#fff, 1);
+				}
+			}
+		}
+	}
+}

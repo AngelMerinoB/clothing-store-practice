@@ -1,0 +1,36 @@
+@media screen and (max-width: 1199px) {
+    .main {
+        .products {
+            .product-name {
+                font-size: 1.50em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        .navbar-nav {
+            padding-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        .products {
+            h2 {
+                font-size: 1.7em;
+                text-align: center;
+            }
+            .buttons {
+                .btn {
+                    width: 35%;
+                    height: 2.5em;
+                    padding: 0;
+                    line-height: 2.5em;
+                }
+            }
+        }
+    }
+}

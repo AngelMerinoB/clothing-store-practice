@@ -1,0 +1,74 @@
+.main {
+    .products {
+        padding: 2.125em;
+        .row {
+            padding: 2.5em 0;
+            .product {
+                margin-bottom: 2.125em;
+                border: 1px solid $silver;
+                border-radius: 3px;
+                .image {
+                    margin: 1em;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .product-name {
+                    margin: 0em 0.65em;
+                    padding: 0;
+                    padding-bottom: 0.3em;
+                    text-align: left;
+                    overflow: hidden;
+                    border-bottom: 1px solid $silver;
+                }
+                .description {
+                    margin: 0.75em 1em;
+                    height: 80px;
+                    padding: 0em 0.25em;
+                    font-size: 0.85em;
+                    line-height: 1.85em;
+                    overflow: hidden;
+                }
+                .buttons {
+                    margin: 1em;
+                    a {
+                        margin-left: 1em;
+                        outline: none;
+                        border: none;
+                        &.buy {
+                            background: $charcoal;
+                            color: #fff;
+                            &:hover {
+                                background: $silver;
+                            }
+                        }
+                        &.show {
+                            background: $gainsboro;
+                            &:hover {
+                                background: #E3DDD7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toTop {
+        display: none;
+        background: rgba($charcoal, 0.9);
+        color: #fff;
+        border: none;
+        border-radius: 100%;
+        width: 2em;
+        height: 2em;
+        font-size: 2em;
+        z-index: 99;
+        position: fixed;
+        bottom: 1.2em;
+        right: 1.5em;
+        outline: none;
+        &:hover {
+            background: $silver;
+        }
+    }
+}

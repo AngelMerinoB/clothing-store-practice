@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
+
+.navbar {
+  background: #2b3d41; }
+  .navbar .first-line {
+    width: 100%;
+    margin: 0 0; }
+  .navbar .logo {
+    width: 100%; }
+    .navbar .logo .crown {
+      width: 100%; }
+  .navbar .navbar-brand h1 {
+    font-weight: 300; }
+  .navbar .social-media a {
+    margin-left: 1.5em; }
+    .navbar .social-media a i {
+      display: block;
+      font-size: 1.5em;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.5em; }
+      .navbar .social-media a i.facebook:hover {
+        color: #3b5998; }
+      .navbar .social-media a i.instagram:hover {
+        color: #e1306c; }
+      .navbar .social-media a i.twitter:hover {
+        color: #1da1f2; }
+      .navbar .social-media a i.youtube:hover {
+        color: #ff0000; }
+    .navbar .social-media a:hover {
+      text-decoration: none; }
+  .navbar .navbar-nav {
+    padding-left: 10em;
+    margin-left: 2em; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      margin: 0 1em;
+      border-radius: 3px;
+      color: #ffF;
+      text-align: center; }
+      .navbar .navbar-nav .nav-item .nav-link:hover {
+        background: rgba(255, 255, 255, 0.3); }
+      .navbar .navbar-nav .nav-item .nav-link.cart-btn {
+        background: #ff6666; }
+    .navbar .navbar-nav .dropdown-menu {
+      background: #2b3d41;
+      border: none;
+      border-radius: 0 0 3px 3px; }
+      .navbar .navbar-nav .dropdown-menu a {
+        padding: 0.8em; }
+      .navbar .navbar-nav .dropdown-menu .dropdown-item {
+        padding: 0.35em 1em;
+        font-size: 0.85em;
+        color: #fff; }
+        .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+          color: #000; }
+  .navbar .second-line {
+    width: 100%;
+    margin-bottom: 0.3em; }
+    .navbar .second-line .cart {
+      padding-right: 3em; }
+      .navbar .second-line .cart i {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.5em;
+        line-height: 2em;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 100%;
+        width: 2em;
+        height: 2em;
+        padding-right: 0.120em; }
+        .navbar .second-line .cart i:hover {
+          background: #ff6666;
+          color: white; }
+
+.main .products {
+  padding: 2.125em; }
+  .main .products .row {
+    padding: 2.5em 0; }
+    .main .products .row .product {
+      margin-bottom: 2.125em;
+      border: 1px solid #bdd9bf;
+      border-radius: 3px; }
+      .main .products .row .product .image {
+        margin: 1em; }
+        .main .products .row .product .image img {
+          width: 100%; }
+      .main .products .row .product .product-name {
+        margin: 0em 0.65em;
+        padding: 0;
+        padding-bottom: 0.3em;
+        text-align: left;
+        overflow: hidden;
+        border-bottom: 1px solid #bdd9bf; }
+      .main .products .row .product .description {
+        margin: 0.75em 1em;
+        height: 80px;
+        padding: 0em 0.25em;
+        font-size: 0.85em;
+        line-height: 1.85em;
+        overflow: hidden; }
+      .main .products .row .product .buttons {
+        margin: 1em; }
+        .main .products .row .product .buttons a {
+          margin-left: 1em;
+          outline: none;
+          border: none; }
+          .main .products .row .product .buttons a.buy {
+            background: #2e4052;
+            color: #fff; }
+            .main .products .row .product .buttons a.buy:hover {
+              background: #bdd9bf; }
+          .main .products .row .product .buttons a.show {
+            background: #f0eae4; }
+            .main .products .row .product .buttons a.show:hover {
+              background: #E3DDD7; }
+.main .toTop {
+  display: none;
+  background: rgba(46, 64, 82, 0.9);
+  color: #fff;
+  border: none;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  font-size: 2em;
+  z-index: 99;
+  position: fixed;
+  bottom: 1.2em;
+  right: 1.5em;
+  outline: none; }
+  .main .toTop:hover {
+    background: #bdd9bf; }
+
+footer .copyright {
+  background: #2b3d41; }
+  footer .copyright p {
+    color: #fff;
+    font-size: 0.85em;
+    line-height: 0.85em;
+    margin: 0;
+    padding: 1em;
+    text-align: center; }
+
+@media screen and (max-width: 1199px) {
+  .main .products .product-name {
+    font-size: 1.50em; } }
+@media screen and (max-width: 992px) {
+  .navbar .navbar-nav {
+    padding-left: 0; } }
+@media screen and (max-width: 768px) {
+  .main .products h2 {
+    font-size: 1.7em;
+    text-align: center; }
+  .main .products .buttons .btn {
+    width: 35%;
+    height: 2.5em;
+    padding: 0;
+    line-height: 2.5em; } }
+
+/*# sourceMappingURL=styles.css.map */
